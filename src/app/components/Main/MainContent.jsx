@@ -11,13 +11,13 @@ const MainContent = () => {
     <>
     <section className='bg-orange-500 py-20'>
       <div className='text-center'>
-      <h3 className='text-white text-4xl'>CORTINAS ROLLER, PERSIANAS, TOLDOS</h3>
+      <h3 className='text-white text-4xl'>Nuestros productos</h3>
       </div>
       <div>
       <div className='flex flex-wrap gap-5 justify-center mt-10'>
         <ImageCard imgSrc ={bgImage}>
           <h3 className='text-xl font-bold mb-2'>Cortinas Rollers</h3>
-          <p>Black Out, Sunscreen, Traslucida, gran variedad y muchos colores</p>
+          <p>Black Out, Sunscreen, Traslucida, Duo, gran variedad y muchos colores</p>
           <div>
             <button className='btn bg-slate-900 p-2 mt-4 rounded-xl font-sans font-bold'>
               Info
@@ -48,6 +48,15 @@ const MainContent = () => {
           <div>
             <button className='btn bg-slate-900 p-2 mt-4 rounded-xl font-sans font-bold'>
               INFO
+            </button>
+          </div>
+        </ImageCard>
+        <ImageCard imgSrc ={bgImage}>
+          <h3 className='text-xl font-bold mb-2'>Domotica</h3>
+          <p> Soluciones de ultima generacion para tu hogar</p>
+          <div>
+            <button className='btn bg-slate-900 p-2 mt-4 rounded-xl font-sans font-bold'>
+              PRONTO
             </button>
           </div>
         </ImageCard>
