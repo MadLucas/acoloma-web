@@ -14,7 +14,7 @@ const navLinks = [
     },
     {
         title:"Productos",
-        path:"/cortinasroller"
+        path:"/"
     },
     {
         title: "Proyectos",

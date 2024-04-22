@@ -1,15 +1,13 @@
 'use client'
 
+import React from "react"
 
 
-import React from 'react'
-
-const pageToldos = () => {
-  return (
-    <>
-    <div className="mt-16 bg-cyan-950">
+export default function CortinasRollerPage() {
+    return (
+        <div className="mt-16 bg-cyan-950">
                 {/* seccion cortinas roller */}
-                <h1 className="text-5xl text-white py-20 text-center font-sans">TOLDOS</h1>
+                <h1 className="text-5xl text-white py-20 text-center font-sans">DOMOTICA</h1>
                 <div className="xl:flex pb-20 px-20 gap-40">
                     <div className=" m-auto">
                         <h3 className="text-white text-3xl font-sans border-b border-white py-2 max-w-lg ">Tu eliges tu estilo</h3>
@@ -54,8 +52,5 @@ const pageToldos = () => {
                 </div>
                 </div>
             </div>
-    </>
-  )
+    )
 }
-
-export default pageToldos
