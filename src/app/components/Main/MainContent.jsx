@@ -2,6 +2,7 @@
 import React from 'react'
 import ImageCard from './ImageCard'
 import Link from 'next/link'
+import MyForm from '../Form/MyForm'
 
 const bgImage = [
   '/images/IMG_2390.jpeg',
@@ -74,6 +75,7 @@ const MainContent = () => {
           </div>
         </div>
       </section>
+      <MyForm/>
     </>
   )
 }
